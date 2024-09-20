@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true
+    // Vite will handle the output folder
+    // Pointing to the src folder
+  },
+  "include": ["src/**/*.ts"]
+}
